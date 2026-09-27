@@ -1,0 +1,1 @@
+The PE feature dataset used for training was obtained from the companion materials associated with *Mastering Machine Learning for Penetration Testing*. The original dataset is intentionally not redistributed in this repository. Users should obtain it from an authorized source and comply with the applicable terms.

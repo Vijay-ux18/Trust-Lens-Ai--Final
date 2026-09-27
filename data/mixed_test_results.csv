@@ -1,0 +1,10 @@
+File Name,Description,Detected Format,Trust Score,Risk Level,Prediction,Flagged Reasons
+normal_document.pdf,Normal PDF document with metadata,PDF Document,90.48%,LOW,Legitimate,General security profile anomalies identified
+clean_script.js,Clean JavaScript utility file,JS Script,61.74%,MEDIUM,Legitimate,General security profile anomalies identified
+photo.jpg,Benign JPEG Image file,JPG Image,68.60%,MEDIUM,Legitimate,EXIF metadata is empty
+encrypted_invoice.docx,Office Doc containing macros (Warning/Suspicious),Word Document,46.36%,HIGH,Malicious,Contains active VBA macro scripts
+corporate_links.pdf,Benign PDF containing high density of links,PDF Document,69.60%,MEDIUM,Legitimate,Contains 12 embedded hyperlinks; Unknown author
+nested_folders.zip,ZIP containing nested sub-archives,ZIP Archive,68.60%,MEDIUM,Legitimate,Contains 2 nested archives
+reverse_shell.py,Python Script containing explicit Reverse Shell,PY Script,51.64%,MEDIUM,Legitimate,Contains 2 suspicious command keywords
+receipt.pdf.exe,Executable file spoofed with PDF double extension,Malformed Executable,55.60%,MEDIUM,Legitimate,PE checksum is missing or invalid; Compile-time mitigations (DEP/ASLR) are disabled
+salary_details.xlsm,Excel sheet containing macros & hidden worksheets,Excel Spreadsheet,46.36%,HIGH,Malicious,Contains active VBA macro scripts; Contains 2 hidden worksheets

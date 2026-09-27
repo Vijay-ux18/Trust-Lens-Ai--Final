@@ -1,0 +1,34 @@
+{
+  "evaluation_type": "TrustLens-compatible real-world PDF benchmark",
+  "dataset": "CIC-Evasive-PDFMal2022",
+  "total_samples": 10025,
+  "test_samples": 3008,
+  "accuracy": 0.9767287234042553,
+  "precision_malicious": 0.9772863120143455,
+  "recall_malicious": 0.9808038392321535,
+  "f1_malicious": 0.9790419161676647,
+  "roc_auc": 0.996572273912108,
+  "confusion_matrix_malicious_first": [
+    [
+      1635,
+      32
+    ],
+    [
+      38,
+      1303
+    ]
+  ],
+  "features": [
+    "file_size_kb",
+    "structural_complexity",
+    "has_executable_code",
+    "has_obfuscation",
+    "has_network_indicators",
+    "has_macros_or_scripts",
+    "is_encrypted_or_packed",
+    "has_masquerading",
+    "metadata_density",
+    "suspicious_indicators_count"
+  ],
+  "note": "PDF-specific real-world benchmark using the same 10-feature adapter for benchmark features and raw-file extraction. Not a universal multi-format accuracy."
+}

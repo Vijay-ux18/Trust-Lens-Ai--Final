@@ -1,0 +1,6 @@
+File Name,Description,Detected Format,Trust Score,Risk Level,Prediction,Flagged Reasons,Backtest Result
+suspicious_exploit.pdf,PDF Exploit with JS & C2 Link,PDF Document,46.89%,HIGH,Malicious,JavaScript detected; Contains 2 embedded hyperlinks; Unknown author,PASS (Threat Detected)
+invoice_macro.docx,DOCX with VBA Macro & OLE Embedding,Word Document,47.63%,HIGH,Malicious,Contains active VBA macro scripts; Contains 1 embedded hyperlinks; Contains 1 embedded OLE objects,PASS (Threat Detected)
+trojan_package.zip,ZIP containing nested Executable,ZIP Archive,55.60%,MEDIUM,Legitimate,Contains 1 nested executables; Contains 1 nested archives,PASS (Threat Detected)
+dropper_script.ps1,Obfuscated PowerShell Downloader,PS1 Script,47.63%,HIGH,Malicious,Contains 3 suspicious command keywords,PASS (Threat Detected)
+fake_document.pdf,PE Executable Masqueraded as PDF,Malformed Executable,61.71%,MEDIUM,Legitimate,Binary masquerading detected; PE checksum is missing or invalid; Compile-time mitigations (DEP/ASLR) are disabled,PASS (Threat Detected)

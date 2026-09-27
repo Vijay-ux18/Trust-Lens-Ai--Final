@@ -1,0 +1,32 @@
+# ==============================================================================
+# TrustLens AI - Production-Ready Requirements Specification
+# Pinned to python-3.14.x compatible versions
+# Verified: No broken requirements found.
+# ==============================================================================
+
+# Core Data Science & Processing Libraries (Approved in Abstract)
+numpy==2.5.1
+pandas==3.0.5
+joblib==1.5.3
+
+# Machine Learning Engine (Approved in Abstract)
+scikit-learn==1.9.0
+
+# Document Security Parsers (Approved in Abstract - Pending Modules)
+pypdf==6.14.2
+python-docx==1.2.0
+
+# Visual Metrics & Charting (Approved in Abstract)
+matplotlib==3.11.1
+plotly==6.9.0
+
+# User Interface Framework (Approved in Abstract)
+streamlit==1.60.0
+
+# Runtime Dependencies (Required for PE Executable Parser Code)
+# ==============================================================================
+pefile==2024.8.26
+requests==2.34.2
+PyYAML==6.0.3
+reportlab==4.2.2
+

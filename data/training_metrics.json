@@ -1,0 +1,49 @@
+{
+    "cross_validation": {
+        "Random Forest": {
+            "Accuracy": 0.994215160067986,
+            "Precision": 0.98984661948965,
+            "Recall": 0.9908386798402604,
+            "F1-Score": 0.9903422728500424
+        },
+        "AdaBoost": {
+            "Accuracy": 0.9854499622747339,
+            "Precision": 0.9798214053217216,
+            "Recall": 0.971410082633221,
+            "F1-Score": 0.9755858069927023
+        },
+        "Gradient Boosting": {
+            "Accuracy": 0.9889995101169033,
+            "Precision": 0.9833822686286119,
+            "Recall": 0.9798106358118319,
+            "F1-Score": 0.9815918159506982
+        }
+    },
+    "best_model": "Random Forest",
+    "best_params": {
+        "n_estimators": 150,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_depth": null
+    },
+    "holdout_test": {
+        "accuracy": 0.9948327900519136,
+        "precision": 0.9909728379140808,
+        "recall": 0.9917722029523272,
+        "f1": 0.9913723592968876,
+        "confusion_matrix": [
+            [
+                28906,
+                112
+            ],
+            [
+                102,
+                12295
+            ]
+        ],
+        "tpr": 0.9917722029523272,
+        "tnr": 0.9961403266937763,
+        "fpr": 0.003859673306223723,
+        "fnr": 0.008227797047672824
+    }
+}
